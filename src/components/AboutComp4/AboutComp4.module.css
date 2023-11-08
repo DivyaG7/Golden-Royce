@@ -71,3 +71,51 @@
     line-height: 32px;
   }
 }
+
+@media screen and (min-width:450px) and (max-width:767px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 155vh;
+  }
+  .contain img {
+    width: 60%;
+    position: absolute;
+    left: 160px;
+    height: 80%;
+    
+  }
+  .contain div{
+    font-size: 18px;
+    padding: 10px;
+    line-height: 32px;
+    margin-top: 200px;
+    margin-left: -380px;
+    height: 60%;
+  }
+}
+
+@media screen and (min-width:200px) and (max-width:449px){
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+  }
+  .contain img {
+    width: 75%;
+    position: absolute;
+    left: 55px;
+    height: 50%;
+    
+  }
+  .contain div{
+    font-size: 14px;
+    padding: 10px;
+    line-height: 18px;
+    margin-left: -500px;
+    height: 70%;
+    width: 60%;
+  }
+}
